@@ -1,0 +1,22 @@
+.main__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    padding:20px;
+    width: 90vw;
+    z-index: 999;
+}
+
+.header__logo{
+    height: 40px;
+}
+
+.header__left{
+    display: flex;
+    flex-direction: row;
+}
+
+.header__left div{
+    margin-right: 20px;
+}
