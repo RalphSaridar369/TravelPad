@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Components/Header/Header';
+import About from './Pages/About/About';
 import Intro from './Pages/Intro/Intro';
 
 function App() {
@@ -7,18 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Intro />
-      <div>test</div> 
-      <div>test</div> 
-      <div>test</div> 
-      <div>test</div> 
-      <div>test</div> 
-      <div>test</div> 
-      <div>test</div> 
-      <div>test</div> 
-      <div>test</div> 
-      <div>test</div> 
-      <div>test</div> 
-      <div>test</div> 
+      <About />
     </div>
   );
 }
