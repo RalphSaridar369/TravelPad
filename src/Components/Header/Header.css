@@ -20,4 +20,22 @@
 
 .header__left div{
     margin-right: 20px;
+    transition: color 0.8s;
+}
+
+
+.header__left div:hover{
+    color:#657BC5
+}
+
+.header__left div:hover, .main__header img{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .main__header{
+        flex-direction: column;
+    }
 }

@@ -24,6 +24,20 @@
     animation: appear 2s ease;
 }
 
+.about__images__container img{
+    animation: logo-spin 40s linear infinite;
+}
+
+
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
 @media only screen and (max-width: 1000px) {
 
     .about__header{

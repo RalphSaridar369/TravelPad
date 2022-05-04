@@ -9,7 +9,7 @@ const About = () => {
     TravelPad's vision is to align travel booking with the ethos of decentralized technology. That being, promote accessibility to anyone, anywhere, offer censorship resistant and peer-to-peer transactions, and build open-source technology controlled by software and governed by users.`
 
     return (
-        <div className='about__main'>
+        <div className='about__main' id="about-us">
             <h1 className='about__header'>
                 <Typewriter
                     options={{

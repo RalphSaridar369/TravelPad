@@ -3,7 +3,7 @@ import './Intro.css'
 
 const Intro = () => {
   return (
-    <div className='intro__main'>
+    <div className='intro__main' id="intro">
         <img src={require('../../Images/plane-intro.png')} className="intro__plane-1"/>
         <img src={require('../../Images/plane-intro.png')} className="intro__plane-2"/>
         <img src={require('../../Images/plane-intro.png')} className="intro__plane-3"/>
