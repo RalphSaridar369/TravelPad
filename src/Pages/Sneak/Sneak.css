@@ -1,4 +1,77 @@
 .sneak__main{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sneak__header{
+    animation: disappear-to-appear 2s linear infinite;
+}
+
+.md-img{
+    height: 200px;
+}
+
+.small-img{
+    height: 100px;
+}
+
+.left{
+    animation: left-to-right 2s linear infinite
+}
+
+.right{
+    animation: left-to-right 2s linear infinite reverse;
+}
+
+.grow{
+    animation: grow-to-shrink 2s linear infinite;
+    margin:20px 0;
+}
+
+@keyframes left-to-right {
+    0% {
+      transform: translate(0px);
+    }
+    25% {
+      transform: translate(50px);
+    }
+
+    50%{
+      transform: translate(0px);
+    }
+
+    75%{
+        transform: translate(-50px);
+    }
+
+    100%{
+        transform: translate(0px);
+    }
+  }
+  
+  @keyframes grow-to-shrink {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+@keyframes disappear-to-appear {
+    
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
 }
