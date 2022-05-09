@@ -19,7 +19,7 @@ const Sneak = () => {
   }
 
   return (
-    <div className='sneak__main'>
+    <div className='sneak__main' id="sneak">
         <h1 className='sneak__header'>
             Sneak Peak 
         </h1>

@@ -68,10 +68,10 @@
 
     
     .about__images__container img{
-        height: 75px;
+        height: 40%;
         width: 40%;
-        margin-top: 10px;
     }
+
 }
 
 @keyframes appear {
